@@ -6,11 +6,11 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 # Task 1: Create the virtual machine
 
-In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual machine. 
+In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
 
 1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
-2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Create** and choose **+Virtual machine**.
+2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Create** and choose **Azure virtual machine**.
 
 3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
@@ -23,7 +23,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     | Image | **Windows Server 2019 Datacenter - Gen2**|
     | Size | **Standard_D2s_v3**|
     | Administrator account username | **azureuser** |
-    | Administrator account password | **Pa$$w0rd1234**|
+    | Administrator account password | **Password.!!1**|
     | Inbound port rules  | **Allow select ports**|
     | Select inbound ports | **RDP (3389)** and **HTTP (80)**|
     | | |
@@ -63,7 +63,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
 2. On the virtual machine **Overview** blade, click the **Connect** button and choose **RDP**.
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/0101.png)
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/01-01.png)
 
     **Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
@@ -73,7 +73,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/0102.png)
 
-4. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username (azureuser) and the password (Pa$$w0rd1234). Click **OK** to connect.
+4. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username (azureuser) and the password (Password.!!1). Click **OK** to connect.
 
     ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](../images/0103.png)
 
@@ -101,9 +101,9 @@ In this task, install the Web Server role on the server and ensure the default I
 
     ![Screenshot of the windows PowerShell command prompt with the command Install-WindowsFeature -name Web-Server -IncludeManagementTools successfully completed and output stating it was successful.](../images/0106.png)
 
-4. Back in the portal, navigate back to the **Overview** blade of myVM and, use the **Click to clipboard** button to copy the public IP address of myVM, open a new browser tab, paste the public IP address into the URL text box, and press the **Enter** key to browse to it.
+4. Back in the portal, navigate back to the **Overview** blade of myVM and, use the **Click to clipboard** button to copy the public IP address of myVm, open a new browser tab, paste the public IP address into the URL text box, and press the **Enter** key to browse to it.
 
-    ![Screenshot of the Azure portal virtual machine property pane with the IP address copied.](../images/0107.png)
+    ![Screenshot of the Azure portal virtual machine property pane with the IP address copied.](../images/01-07.png)
 
 5. The default IIS Web Server welcome page will open.
 
