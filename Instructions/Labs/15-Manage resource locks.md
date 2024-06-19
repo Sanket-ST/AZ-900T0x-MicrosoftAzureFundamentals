@@ -33,7 +33,7 @@ In this task, we will verify the existing resource group for this exercise.
 
    ![image](../images/lab14-image1.png)
 
-1. View the existing resource group.
+1. View the existing resource group **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**
 
    ![image](../images/lab15-image1.png)
 
@@ -42,7 +42,7 @@ In this task, we will verify the existing resource group for this exercise.
 
 In this task, we will add a resource lock to the resource group and test deleting the resource group. 
 
-1. In the Azure portal, navigate to the existing resource group **myRGLocks-<inject key="DeploymentID" enableCopy="false" />**.
+1. In the Azure portal, navigate to the existing resource group **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**.
 
 1. You can apply a lock to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
 
@@ -60,9 +60,9 @@ In this task, we will add a resource lock to the resource group and test deletin
 
     ![](../images/lab15-image3.png)
 
-1. On **myRGLocks-<inject key="DeploymentID" enableCopy="false" /> | Locks** blade, from the left navigation select **Overview**.
+1. On **AZ-900-<inject key="DeploymentID" enableCopy="false"/> | Locks** blade, from the left navigation select **Overview**.
 
-1. On **myRGLocks-<inject key="DeploymentID" enableCopy="false" />** blade, click on **Delete resource group (1)**. Copy the **Resource Group** name **(2)** and paste it into the **Enter resource group name to confirm deletion (3)** and click **Delete** **(4)** then confirm the deletion by selecting **Delete** on **Delete Confirmtion** window.
+1. On **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** blade, click on **Delete resource group (1)**. Copy the **Resource Group** name **(2)** and paste it into the **Enter resource group name to confirm deletion (3)** and click **Delete** **(4)** then confirm the deletion by selecting **Delete** on **Delete Confirmtion** window.
 
    ![](../images/lab15-image4.png)
 
@@ -85,7 +85,7 @@ In this task, we will test if the resource lock protects a storage account in th
     | Setting | Value |
     | --- | --- |
     | Subscription | **accept the default (1)** |
-    | Resource group | **myRGLocks-<inject key="DeploymentID" enableCopy="false" /> (2)** |
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" /> (3)** |
     | Region | **<inject key="Region" enableCopy="false"/> (4)**   |
     | Performance | **Standard (5)** |
@@ -110,11 +110,11 @@ In this task, we will test if the resource lock protects a storage account in th
 
 In this task, we will remove the resource lock and test. 
 
-1. Return to the **myRGLocks-<inject key="DeploymentID" enableCopy="false" />** resource group blade and, in the **Settings** section, click **Locks (1)**. Click the **Delete (2)** link to the right of the **RGLock** entry.
+1. Return to the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** resource group blade and, in the **Settings** section, click **Locks (1)**. Click the **Delete (2)** link to the right of the **RGLock** entry.
 
     ![](../images/lab15-image10.png)
 
-1. From the **myRGLocks-<inject key="DeploymentID" enableCopy="false" />** | locks blade, from the left navigation pane left **Overview** and select **storageaccount<inject key="DeploymentID" enableCopy="false" />** storage account.
+1. From the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** | locks blade, from the left navigation pane left **Overview** and select **storageaccount<inject key="DeploymentID" enableCopy="false" />** storage account.
   
 1. On the Storage accounts blade, select **Delect (1)** copy the stoarge account **(2)** name and paste in **Enter storage account name to confirm deletion (3)** field, then click **Delete (4)** and select **Delete** on **Delete Confirmation** windown.
 
