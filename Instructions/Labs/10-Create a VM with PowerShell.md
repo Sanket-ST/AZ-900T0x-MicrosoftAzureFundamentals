@@ -39,7 +39,7 @@ In this task, we will configure Cloud Shell.
     |  -- | -- |
     | Subscription | **Existing subscription**|
     | Storage account name | **blob<inject key="DeploymentID" enableCopy="false"/>**|
-    | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>**|
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **(US) East US**|
     | File share | **none**|
 
@@ -63,11 +63,11 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 1. Create a virtual machine. When prompted provide the username as **azureuser** and the password: **Pa$$w0rd1234**. <br>This will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
 
-   **Note**: In the below code, replace the Resource group name as **myRGPS-<inject key="DeploymentID" enableCopy="false"/>**
+   **Note**: In the below code, replace the Resource group name AZ-900-[DeploymentID] as **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**
 
     ```
      New-AzVm `
-    -ResourceGroupName "myRGPS-[DeploymentId]" `
+    -ResourceGroupName "AZ-900-[DeploymentId]" `
     -Name "myVMPS" `
     -Location "eastus" `
     -Size "Standard_B2s" `
@@ -113,9 +113,9 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
 
 1. Stop the virtual machine. When prompted confirm (Yes) to the action.
 
-   **Note**: Replace myRGPS-[deployId] with **myRGPS-<inject key="DeploymentID" enableCopy="false" />**
+   **Note**: Replace AZ-900-[deployId] with **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**
     ```
-    Stop-AzVM -ResourceGroupName myRGPS-[deployId] -Name myVMPS
+    Stop-AzVM -ResourceGroupName AZ-900-[deployId] -Name myVMPS
     ```
 1. For **This cmdlet will stop the specified virtual machine. Do you want to continue?** enter **Y**.
 
