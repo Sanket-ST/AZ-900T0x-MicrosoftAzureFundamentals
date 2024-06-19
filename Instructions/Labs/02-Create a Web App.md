@@ -36,7 +36,7 @@ In this task, you will create an Azure App Service Web App.
     | Setting | Value |
     | -- | -- |
     | Subscription | **Accept default subscription (1)** |
-    | Resource Group | **myRGWebApp1-<inject key="DeploymentID" enableCopy="false"/>(2)**  |
+    | Resource Group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** **(2)** |
     | Name | **myDockerWebApp<inject key="DeploymentID" enableCopy="false"/> (3)** |
     | Publish | **Container (4)** |
     | Operating System | **Linux (5)** |
