@@ -45,7 +45,7 @@ In this task, we will create an IoT hub.
     | Settings | Value |
     |--|--|
     | Subscription | **Accept default subscription (1)** |
-    | Resource Group | **myRGIoT-<inject key="DeploymentID" enableCopy="false" /> (2)**  |
+    | Resource Group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)**  |
     | IoT Hub Name | **my-hub-group<inject key="DeploymentID" enableCopy="false" /> (3)** |
     | Region | **<inject key="Region" enableCopy="false"/> (4)** |
     | Tier | **Standard (most popular) (5)** |
