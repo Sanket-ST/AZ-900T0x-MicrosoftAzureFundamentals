@@ -36,7 +36,7 @@ In this lab, you will complete the following tasks:
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Accept default subscription (1)** |
-    | Resource group | **myRGKV-<inject key="DeploymentID" enableCopy="false" /> (2)**  |
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)**  |
     | Key vault name | **keyvaulttest<inject key="DeploymentID" enableCopy="false" /> (3)** |
     | Location | **<inject key="Region" enableCopy="false"/> (4)** |
     | Pricing tier | **Standard (5)** |
