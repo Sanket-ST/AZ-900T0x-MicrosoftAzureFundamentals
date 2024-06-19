@@ -50,7 +50,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Setting| Value|
     |----|----|
     | Subscription | **Accept default subscription** (1)|
-    | Resource group | **myRGTemplate-<inject key="DeploymentID" enableCopy="false"/>** (2) |
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** (2) |
     | Region | **<inject key="Region" enableCopy="false"/>** (3) |
     | Admin username | **azureuser** (4) |
     | Admin password | **Pa$$w0rd1234** (5) |
