@@ -31,7 +31,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Choose your subscription** |
-    | Resource group | **myRGDb-<inject key="DeploymentID" enableCopy="false"/>** |
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
     | Database name| **db1** |
     | Workload Environment| **Development** |
     | Compute + storage| **General Purpose - Serverless Gen 5** |
