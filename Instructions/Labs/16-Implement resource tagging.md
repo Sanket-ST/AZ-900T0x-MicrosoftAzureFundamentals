@@ -55,7 +55,7 @@ In this task, we will create storage accounts to test the required tagging.
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use your subscription** |
-    | Resource group | **myRGTags**  |
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**  |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **<inject key="Region" enableCopy="false"/>** |
     
