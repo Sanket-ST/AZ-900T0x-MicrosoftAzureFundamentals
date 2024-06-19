@@ -39,7 +39,7 @@ In this task, we will configure Cloud Shell.
     |  -- | -- |
     | Subscription | **Existing subscription**|
     | Storage account name | **blob<inject key="DeploymentID" enableCopy="false"/>**|
-    | Resource group | **myRGCLI-<inject key="DeploymentID" enableCopy="false"/>**|
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**|
     | Location | **(US) East US**|
     | File share | **none**|
 
@@ -67,12 +67,12 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
     **Note**: If you are using the command line on a Windows computer, replace the backslash (`\`) character with the caret (`^`) character.
     
-    **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
+    **Note**: Replace AZ-900-[deployId] with  **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**
 
     ```cli
     az vm create \
     --name myVMCLI \
-    --resource-group myRGCLI-[deployId] \
+    --resource-group AZ-900-[deployId] \
     --image Win2019Datacenter \
     --location EastUS \
     --size Standard_B2s \
@@ -97,25 +97,25 @@ In this task, we will practice executing CLI commands from the Cloud Shell.
 
 1. Retrieve information about the virtual machine you provisioned, including name, resource group, location, and status. Notice the PowerState is **running**.
 
-   **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
+   **Note**: Replace AZ-900-[deployId] with  **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**
 
     ```cli
-    az vm show --resource-group myRGCLI-[deployId] --name myVMCLI --show-details --output table 
+    az vm show --resource-group AZ-900-[deployId] --name myVMCLI --show-details --output table 
     ```
 1. Stop the virtual machine. Notice the message that billing continues until the virtual machine is deallocated.
    
-   **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
+   **Note**: Replace AZ-900-[deployId] with **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**
 
     ```cli
-    az vm stop --resource-group myRGCLI-[deployId] --name myVMCLI
+    az vm stop --resource-group AZ-900-[deployId] --name myVMCLI
     ```
 
 1. Verify your virtual machine status. The PowerState should now be **stopped**.
 
-   **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
+   **Note**: Replace AZ-900-[deployId] with  **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**
 
     ```cli
-    az vm show --resource-group myRGCLI-[deployId] --name myVMCLI --show-details --output table 
+    az vm show --resource-group AZ-900-[deployId] --name myVMCLI --show-details --output table 
     ```
 
 ### Task 4: Review Azure Advisor Recommendations
