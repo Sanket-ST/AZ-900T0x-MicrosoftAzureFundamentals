@@ -34,7 +34,7 @@ In this task, we will create a new container instance for the web application.
 	| Setting| Value|
 	|----|----|
 	| Subscription | **Choose your subscription** |
-	| Resource group | **myRGContainer-<inject key="DeploymentID" enableCopy="false" />** |
+	| Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
 	| Container name| **mycontainer**|
 	| Region | **<inject key="Region" enableCopy="false"/>** |
 	| Image source| **Other registry**|
