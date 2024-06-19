@@ -27,7 +27,7 @@ In this task, we will assign the Virtual machine contributor role.
 
    ![image](../images/lab14-image1.png)
 
-1. Then view and select the existing resource group **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/>**.
+1. Then view and select the existing resource group **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**.
 
    ![image](../images/lab14-image2.png)
      
@@ -37,7 +37,7 @@ In this task, we will assign the Virtual machine contributor role.
 
    ![image](../images/lab14-image3.png)
 
-1. On the **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> | Access control (IAM)** blade select **+ Add (1)** then from drop-down select **Add Role assignments (2)**. 
+1. On the **AZ-900-<inject key="DeploymentID" enableCopy="false"/> | Access control (IAM)** blade select **+ Add (1)** then from drop-down select **Add Role assignments (2)**. 
 
    ![image](../images/lab14-image4.png)
    
@@ -56,7 +56,7 @@ In this task, we will assign the Virtual machine contributor role.
    
      **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to. User name can be obtained from the Lab Environment output page
 
-1. Back on **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> | Access control (IAM)** blade, select **Role assignments** tab.
+1. Back on **AZ-900-<inject key="DeploymentID" enableCopy="false"/> | Access control (IAM)** blade, select **Role assignments** tab.
 
     ![image](../images/lab14-image8.png)
 
@@ -70,9 +70,9 @@ In this task, we will assign the Virtual machine contributor role.
 
 In this task, we will view the activity log to verify the role assignment, and then remove the role. 
 
-1. On the myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> resource group blade, click **Activity log**.
+1. On the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** resource group blade, click **Activity log**.
 
-1. On the myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> | Activity log blade, click **Add filter**.
+1. On the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** | Activity log blade, click **Add filter**.
 
     ![image](../images/lab14-image10.png)
 
