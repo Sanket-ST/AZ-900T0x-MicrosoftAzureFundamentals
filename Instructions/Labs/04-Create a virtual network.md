@@ -36,7 +36,7 @@ In this task, we will create a virtual network.
       | ---     | ---   |
       | Name    | **vnet1** |
       | Subscription | **Keep default subscription**  |
-      | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
+      | Resource group |  **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
       | Location | **(US) East US** |
 
       ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
@@ -73,7 +73,7 @@ In this task, we will create two virtual machines in the virtual network.
    | Setting | Value | 
    | --- | --- |
    | Subscription | **Use default supplied**  |
-   | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
+   | Resource group |  **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
    | Virtual machine name | **vm1**|
    | Region | **(US) East US** |
    | Image | **Windows Server 2019 Datacenter - x64 Gen2** |
@@ -101,7 +101,7 @@ In this task, we will create two virtual machines in the virtual network.
 
     | Setting | Value |
     | --- | --- |
-    | Resource group | **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
     | Virtual machine name |  **vm2** |
     | Virtual network | **vnet1** |
     | Public IP | (new) **vm2-ip** |
