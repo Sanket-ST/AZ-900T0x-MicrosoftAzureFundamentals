@@ -37,7 +37,7 @@ In this task, we will create a new storage account.
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Choose the default subscription** |
-    | Resource group | **myRGStorage-<inject key="DeploymentID" enableCopy="false" />** |
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" />** |
     | Region | **<inject key="Region" enableCopy="false"/>**  |
     | Performance | **Standard** |
