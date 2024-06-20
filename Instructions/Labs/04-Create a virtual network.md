@@ -52,7 +52,8 @@ In this task, we will create a virtual network.
     | Setting | Value | 
     | --- | --- |
     | Subnet Name |**default**|
-    | Subnet Address range | **10.1.0.0/24**|
+    | Starting address | **10.1.0.0**|
+    | Size | **/24**
   
     ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/vnetnow.png)
 
