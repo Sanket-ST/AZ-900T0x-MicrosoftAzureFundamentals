@@ -45,7 +45,7 @@ In this task, we will create a new container instance for the web application.
 
      ![](../images/lab04-image3.png)
    
-     ![](../images/lab04-image4.png)
+     ![](../images/lab04-image(4).png)
 	
 1. On **Networking** tab . Specify the following and leave all other settings at their default values and click **Review + create (2)**.
 
