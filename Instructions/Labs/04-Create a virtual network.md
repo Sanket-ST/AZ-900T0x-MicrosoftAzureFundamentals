@@ -39,6 +39,8 @@ In this task, we will create a virtual network.
       | Name    | **vnet1** |
       | Location | **(US) East US** |
 
+      ![](../images/lab04-image6.png)
+   
       ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
 
 1. On the **Create virtual network** blade, click **Next** twice to go to the IP Addresses tab and delete precreated IP address and click on **Add IPV4 address** to create a new address space.
@@ -94,6 +96,8 @@ In this task, we will create two virtual machines in the virtual network.
    | --- | --- |
    | Virtual network | **vnet1** |
 
+   ![](../images/lab04-image7.png)
+    
 1. Click **Review + create**. After the Validation passes, click **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
 
 1. Monitor your deployment, but continue on to the next step. 
