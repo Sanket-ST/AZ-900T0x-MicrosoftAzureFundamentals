@@ -39,8 +39,8 @@ In this task, we will create a virtual network.
       | Name    | **vnet1** |
       | Location | **(US) East US** |
 
-      ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
-
+      ![](../images/lab04-image6.png)
+   
 1. On the **Create virtual network** blade, click **Next** twice to go to the IP Addresses tab and delete precreated IP address and click on **Add IPV4 address** to create a new address space.
 
     | Setting | Value | 
@@ -94,6 +94,8 @@ In this task, we will create two virtual machines in the virtual network.
    | --- | --- |
    | Virtual network | **vnet1** |
 
+   ![](../images/lab04-image7.png)
+    
 1. Click **Review + create**. After the Validation passes, click **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
 
 1. Monitor your deployment, but continue on to the next step. 
@@ -117,8 +119,8 @@ In this task, we will try to test whether the virtual machines can communicate (
 
 1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the dropdown.
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/conrdp.png)
-
+    ![](../images/lab04-image8.png)
+   
     >**Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
 1. Within the **Connect** page, click on **Download RDP File**.
