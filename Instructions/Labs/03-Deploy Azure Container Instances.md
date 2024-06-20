@@ -74,7 +74,7 @@ In this task, we verify that the container instance is running by ensuring that 
 
 1. On the **Overview** blade of **mycontainer**, ensure your container **Status** is **Running**.
 
-    ![](../images/lab3-image6.png)
+    ![](../images/lab04-image5.png)
 
 1. Locate and copy the **Fully Qualified Domain Name (FQDN)**.
 
