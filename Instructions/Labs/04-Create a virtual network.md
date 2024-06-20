@@ -41,8 +41,6 @@ In this task, we will create a virtual network.
 
       ![](../images/lab04-image6.png)
    
-      ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
-
 1. On the **Create virtual network** blade, click **Next** twice to go to the IP Addresses tab and delete precreated IP address and click on **Add IPV4 address** to create a new address space.
 
     | Setting | Value | 
