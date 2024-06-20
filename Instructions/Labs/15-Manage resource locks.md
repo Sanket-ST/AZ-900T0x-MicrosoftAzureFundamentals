@@ -86,7 +86,7 @@ In this task, we will test if the resource lock protects a storage account in th
     | --- | --- |
     | Subscription | **accept the default (1)** |
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
-    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" /> (3)** |
+    | Storage account name | **strgaccount<inject key="DeploymentID" enableCopy="false" /> (3)** |
     | Region | **<inject key="Region" enableCopy="false"/> (4)**   |
     | Performance | **Standard (5)** |
     | Replication | **Locally redundant storage (LRS) (6)** |
@@ -114,7 +114,7 @@ In this task, we will remove the resource lock and test.
 
     ![](../images/lab15-image10.png)
 
-1. From the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** | locks blade, from the left navigation pane left **Overview** and select **storageaccount<inject key="DeploymentID" enableCopy="false" />** storage account.
+1. From the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** | locks blade, from the left navigation pane left **Overview** and select **strgaccount<inject key="DeploymentID" enableCopy="false" />** storage account.
   
 1. On the Storage accounts blade, select **Delect (1)** copy the stoarge account **(2)** name and paste in **Enter storage account name to confirm deletion (3)** field, then click **Delete (4)** and select **Delete** on **Delete Confirmation** windown.
 
