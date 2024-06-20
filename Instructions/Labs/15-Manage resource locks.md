@@ -46,7 +46,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 1. You can apply a lock to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
 
-1. In the **Settings** section, click **Locks (1)**, and then click **+ Add (2)**. 
+1. Expand **Settings** section, click **Locks (1)**, and then click **+ Add (2)**. 
 
     ![](../images/lab15-image2.png)
 
