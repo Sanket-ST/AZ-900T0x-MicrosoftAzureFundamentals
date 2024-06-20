@@ -43,6 +43,9 @@ In this task, we will create a new container instance for the web application.
 	| OS type| **Linux** |
 	| Size| ***Leave at the default***|
 
+     ![](../images/lab04-image3.png)
+   
+     ![](../images/lab04-image4.png)
 	
 1. On **Networking** tab . Specify the following and leave all other settings at their default values and click **Review + create (2)**.
 
