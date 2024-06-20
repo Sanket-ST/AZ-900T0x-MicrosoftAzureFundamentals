@@ -86,7 +86,7 @@ In this task, we will test the Allowed location policy.
 
 1. Notice the error which is disallowing to create stoarge account in east us region which block by the policy
 
-     ![](../images/lab17-image8.png)
+     ![](../images/lab04-image20.png)
     
    **Note**: You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
       
@@ -115,15 +115,10 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
      >**Note**: The Allowed location policy may show non-compliant resources. If so, these are resources created before the policy assignment.
 
-1. On the Allowed location page, select **View assignment** button.
+1. On the Allowed location page,  Click **Delete Assignment** in the top menu.
 
-     ![](../images/lab17-image10.png)
-    
-1. Click **Delete Assignment** in the top menu.
-
-    ![](../images/lab17-image11.png)
+    ![](../images/lab04-image21.png)
   
- 
 1. If Prompted confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
 1. Now try to create a storage account and the policy will not block the creation.
