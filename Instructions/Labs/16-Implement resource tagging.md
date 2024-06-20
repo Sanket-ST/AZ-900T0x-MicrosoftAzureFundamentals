@@ -56,7 +56,7 @@ In this task, we will create storage accounts to test the required tagging.
     | --- | --- |
     | Subscription | **Use your subscription** |
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**  |
-    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
+    | Storage account name | **blobdemo<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **<inject key="Region" enableCopy="false"/>** |
     
 1. Click **Review**. 
@@ -75,7 +75,7 @@ In this task, we will create storage accounts to test the required tagging.
     | Value| **Contoso** (may not be in the drop-down list) |
     | | |
 
-1. Click **Review** and verify that the validation was successful. Click **Create** to deploy the storage account. 
+1. Click **Review + Create** and verify that the validation was successful. Click **Create** to deploy the storage account. 
 
 ### Task 3: View all resources with a specific tag
 
