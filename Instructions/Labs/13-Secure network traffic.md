@@ -84,7 +84,7 @@ In this task, we will create a network security group and associate it with the 
     | Name | **myNSGSecure** |
     | Region | **<inject key="Region" enableCopy="false"/>**  |
 
-     ![](../images/lab04-image10.png)
+     ![](../images/lab04-image(10).png)
 
 1. Click **Review + create** and then after the validation click **Create**.
 
