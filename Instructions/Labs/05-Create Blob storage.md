@@ -36,18 +36,22 @@ In this task, we will create a new storage account.
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | **Choose the default subscription** |
-    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
-    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" />** |
-    | Region | **<inject key="Region" enableCopy="false"/>**  |
-    | Performance | **Standard** |
-    | Redundancy | **Locally redundant storage (LRS)** |
+    | Subscription | **Choose the default subscription (1)** |
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
+    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" /> (3)** |
+    | Region | **<inject key="Region" enableCopy="false"/> (4)**  |
+    | Performance | **Standard (5)** |
+    | Redundancy | **Locally redundant storage (LRS)(6)** |
+    
+      ![Screenshot of the newly created storage account in the Azure portal .](../images/5-1.png)
 
-1. On the **Advanced** tab of the **Create storage account**, choose **Hot** for **Access tier** setting under **Blob storage**.
+1. On the **Advanced (7)** tab of the **Create storage account**, choose **Hot** for **Access tier** setting under **Blob storage**.
 
 1. Click **Review + create** to review your storage account settings and allow Azure to validate the configuration. 
 
-1. Once validated, click **Create**. Wait for the **Deployment Succeeded** notification. 
+1. Once validated, click **Create**. Wait for the **Deployment Succeeded** notification.
+
+   ![Screenshot of the newly created storage account in the Azure portal .](../images/5-2.png)
 
 1. From the Home page, search for and select **Storage accounts** and ensure your new storage account is listed.
 
@@ -88,7 +92,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 1. Explore some of the most common storage problems. Notice there are multiple troubleshooter.
 
-1. On the storage account blade, scroll down to the **Monitoring** section and click **Monitor at scale with Insights**. Notice there is information on Failures, Performance, Availability, and Capacity. Your information will be different.
+1. On the storage account blade, scroll down to the **Monitoring** section and click **Insights**. Notice there is information on Failures, Performance, Availability, and Capacity. Your information will be different.
 
     ![Screenshot of the storage account Insights page.](../images/AZ-9000503.png)
 
