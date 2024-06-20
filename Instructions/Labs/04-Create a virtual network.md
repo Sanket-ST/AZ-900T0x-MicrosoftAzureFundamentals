@@ -34,9 +34,9 @@ In this task, we will create a virtual network.
 
       | Setting | Value | 
       | ---     | ---   |
-      | Name    | **vnet1** |
       | Subscription | **Keep default subscription**  |
       | Resource group |  **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
+      | Name    | **vnet1** |
       | Location | **(US) East US** |
 
       ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
