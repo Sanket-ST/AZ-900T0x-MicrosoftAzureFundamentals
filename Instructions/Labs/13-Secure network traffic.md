@@ -83,7 +83,8 @@ In this task, we will create a network security group and associate it with the 
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**|
     | Name | **myNSGSecure** |
     | Region | **<inject key="Region" enableCopy="false"/>**  |
-   
+
+     ![](../images/lab04-image10.png)
 
 1. Click **Review + create** and then after the validation click **Create**.
 
@@ -136,6 +137,8 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 1. Continue in your virtual machine RDP session. If pop-up comes then select **yes**.
 
 1. After the machine starts, open an **Internet Explorer** browser, then click on **Ok**. 
+
+    ![](../images/lab04-image11.png)
 
 1. Open a New tab in the browser and browse to **https://www.bing.com** , and then close Internet Explorer Pop-ups. You will need to work through the IE enhanced security pop-ups. The page is displayed.
 
