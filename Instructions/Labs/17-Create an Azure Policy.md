@@ -80,7 +80,7 @@ In this task, we will test the Allowed location policy.
     | --- | --- |
     | Subscription | **Accept default subscription** |
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**  |
-    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
+    | Storage account name | **storeacc<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **(US) East US** |
     | | |
 
