@@ -119,6 +119,8 @@ In this task, we will try to test whether the virtual machines can communicate (
 
 1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the dropdown.
 
+    ![](../images/lab04-image8.png)
+   
     >**Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
 1. Within the **Connect** page, click on **Download RDP File**.
