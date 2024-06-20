@@ -72,15 +72,8 @@ In this task, we will view the activity log to verify the role assignment, and t
 
 1. On the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** resource group blade, click **Activity log**.
 
-1. On the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** | Activity log blade, click **Add filter**.
 
-    ![image](../images/lab14-image10.png)
-
-5. From the **Resource (1)** drop-down, select **Operation (2)**. Then in the **Selected (3)** drop-down, search for **Create role assignment (4)** and choose **Create role assignment (microsoft.Authorization/roleAssignments/write) (5)**
-
-    ![image](../images/lab14-image11.png)
-
-    ![image](../images/lab14-image(12).png)
+1. In search bar search for **Create role assignment**.
 
 1. Verify the Activity log shows your role assignment. (With your User Id). 
 
@@ -94,7 +87,9 @@ In this task, we will view the activity log to verify the role assignment, and t
    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
  <validation step="402a4212-b323-460b-bc90-58ed9e48c878"/>
+
 ### Review
+
 In this lab, you have completed:
 - View and assign roles
 - Monitor role assignments and remove a role
