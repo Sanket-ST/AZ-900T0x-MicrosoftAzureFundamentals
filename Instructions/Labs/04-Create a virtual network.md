@@ -51,7 +51,7 @@ In this task, we will create a virtual network.
   
     | Setting | Value | 
     | --- | --- |
-    | Subnet Name |**default**|
+    | Name |**default**|
     | Starting address | **10.1.0.0**|
     | Size | **/24**
   
