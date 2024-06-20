@@ -41,7 +41,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Subscription | **Accept default subscription** (1)|
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** (2) |
     | Virtual machine name | **myVm** (3)|
-    | Location | **(US) East US** (4)|
+    | Location | Select **<inject key="location" enableCopy="false" />** (4)|
     | Image | **Windows Server 2019 Datacenter - x64 Gen2** (5)|
     | Size | **Standard_D2s_v3** (6)|
     | Administrator account username | **azureuser** (7)|
@@ -156,7 +156,7 @@ In this task, install the Web Server role on the server and host a basic website
 
    >**Note:** Keep a note of the path as it will be required in the preceding steps.
 
-1. Open a notepad file to create a very basic html file. Save it as **Default.htm** and place it in the Physical Path location specified in the Basic Settings. For example:
+1. Open a notepad file to create a very basic html file. Save it as **Default.html** and place it in the Physical Path location specified in the Basic Settings. For example:
 
     ```
     <html>
