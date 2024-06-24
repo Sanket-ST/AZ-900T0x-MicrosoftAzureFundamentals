@@ -56,7 +56,7 @@ In this lab, you will complete the following tasks:
 
     ![](../images/lab12-image4.png)
    
-   **Note**: Your Azure account is the only one authorized to perform operations on this new vault.
+   >**Note**: Your Azure account is the only one authorized to perform operations on this new vault.
    
 ### Task 2: Add a secret to the Key Vault
         
@@ -95,19 +95,20 @@ In this task, we will add a password to the key vault.
 
    ![](../images/lab12-image11.png)
    
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-<validation step="56a44935-46cd-410d-9304-81c9dfd8af4d"/>
+<validation step="b7285084-2658-4a78-a80b-cc7c97f8fa45"/>
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ### Review
 In this lab, you have completed:
-- Create an Azure Key Vault
-- Add a secret to the Key Vault
+- Created an Azure Key Vault
+- Added a secret to the Key Vault
 
 ## Reference link
 
 - https://learn.microsoft.com/en-us/azure/key-vault/general/basic-concepts
   
-## You have successfully completed this lab.
+## You have successfully completed this lab. Proceed with the next lab.

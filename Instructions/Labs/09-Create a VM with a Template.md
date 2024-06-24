@@ -51,7 +51,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     |----|----|
     | Subscription | **Accept default subscription** (1)|
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** (2) |
-    | Region | **<inject key="Region" enableCopy="false"/>** (3) |
+    | Region | Keep it as default (3) |
     | Admin username | **azureuser** (4) |
     | Admin password | **Pa$$w0rd1234** (5) |
     | DNS label prefix | **myvm-<inject key="DeploymentID" enableCopy="false"/>** (6) |
@@ -61,7 +61,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
    
     ![](../images/lab9-image1.png)
 
-1. Click **Review + Create**.
+1. Click **Review + create**.
  
 1. Click the **Create**.
 
@@ -73,13 +73,13 @@ In this task, we will verify the virtual machine is deployed correctly.
 
 1. From the **Search resources, services, and docs** blade, search for and select **Virtual machines**.
 
-1. Ensure your new virtual machine was created. 
+1. Ensure that your new virtual machine, **myVMTemplate**, is listed among these virtual machines.
 
-    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/l9.2.png)
+    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/myvmtemplate.png)
 
-1. Select your virtual machine and on the **Overview** pane scroll down to view monitoring data.
+1. Select **myVMTemplate** virtual machine and on the **Overview** pane scroll down to view monitoring data.
 
-    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/l9.3.png)
+    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/myvmtemplate1.png)
 
     >**Note**: The monitoring timeframe can be adjusted from one hour to 30 days.
 
@@ -91,27 +91,26 @@ In this task, we will verify the virtual machine is deployed correctly.
 
 1. Return to the **Overview** blade.
 
-1. Click on the **Activity log** (left pane). Activity logs record such events as the creation or modification of resources. 
+1. Click on the **Activity log** from the left navigation pane. Activity logs record such events as the creation or modification of resources. 
 
 1. Click **Add filter**, and experiment with searching for different event types and operations. 
 
    ![Screenshot of the Add filters page with Event type selected.](../images/l9.4.png)
 
-   <validation step="96efa9b4-389e-4cc9-9b9f-060cc6726976" />
+<validation step="acb8db6a-300c-4a38-a149-41c7ba96055c" />
 
-   >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 ### Review
 In this lab, you have completed:
-- Explore the gallery and locate a template
-- Verify and monitor your virtual machine deployment
+- Explored the gallery and locate a template
+- Verified and monitor your virtual machine deployment
 
 ## Reference link
 
 - https://learn.microsoft.com/en-us/azure/virtual-machines/windows/ps-template  
 
-## You have successfully completed this lab.
+## You have successfully completed this lab. Proceed with the next lab.
