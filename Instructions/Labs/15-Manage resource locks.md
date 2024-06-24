@@ -35,9 +35,6 @@ In this task, we will verify the existing resource group for this exercise.
 
 1. View the existing resource group **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**
 
-   ![image](../images/lab15-image1.png)
-
-
 ### Task 2:  Add a Lock to the resource group and test deletion
 
 In this task, we will add a resource lock to the resource group and test deleting the resource group. 
