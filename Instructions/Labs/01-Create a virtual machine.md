@@ -41,12 +41,12 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Subscription | **Accept default subscription** (1)|
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** (2) |
     | Virtual machine name | **myVm** (3)|
-    | Location | Select **<inject key="location" enableCopy="false" />** (4)|
+    | Region | Select **<inject key="Region" enableCopy="false" />** (4)|
     | Image | **Windows Server 2019 Datacenter - x64 Gen2** (5)|
     | Size | **Standard_D2s_v3** (6)|
     | Administrator account username | **azureuser** (7)|
     | Administrator account password | **Pa$$w0rd1234** (8)|
-    | Inbound port rules  | **Allow select ports** (9)|
+    | Inbound port rules  | **Allow selected ports** (9)|
     | Select inbound ports | **RDP (3389)** and **HTTP (80)** (10)|
     |||
    
@@ -74,7 +74,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | -- | -- |
     | Boot diagnostics | **Disable**|
   
-1. Leave the remaining defaults and then click the **Review + Create** button at the bottom of the page.
+1. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
 
 1. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
@@ -88,7 +88,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
 1. Once the deployment is complete, click on **Go to resource** you will be directed to the page of the newly created Virtual Machine.
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/goto.png)
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/az-900images.png)
    
 1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the dropdown.
 
@@ -126,17 +126,17 @@ In this task, install the Web Server role on the server and host a basic website
     
     ![server manager](../images/network.png)
 
-1. Within the **Add Roles and Features Wizard** dialog box, click on **Next**.
+1. Within the **Add Roles and Features Wizard** dialog box, click on **Next >**.
 
-1. Ensure **Role-based or feature-based installation** is selected. Click Next.
+1. Ensure **Role-based or feature-based installation** is selected. Click **Next >**.
 
-1. Ensure **Select a server from the server pool** is selected, and that your VM appears in the list below. Click on **Next**.
+1. Ensure **Select a server from the server pool** is selected, and that your VM appears in the list below. Click on **Next >**.
 
 1. In the Server roles list, scroll to near bottom of the list and check **Web Server (IIS)**. Click on **Add Features**.
 
     ![server pool](../images/az900-t3_s5.png)
 
-1. Click on **Next** until you reach the **Confirm installation selections** page and make sure **Restart the destination server automatically if required** is checked. Then click on **Install**.
+1. Click on **Next >** until you reach the **Confirm installation selections** page and make sure **Restart the destination server automatically if required** is checked. Then click on **Install**.
 
     ![Restart the destination check box](../images/az900-t3_s7.png)
 
@@ -176,20 +176,19 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![](../images/az900-t3_last.png)
 
-   <validation step="5b0e6dcc-0bdc-40a8-8012-226e432663c5" />
+<validation step="657b4747-1449-4a5c-886e-0d3096a834ba" />
 
-    >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 ### Review
 
 In this lab, you have completed:
-- Create the virtual machine
-- Connect to the virtual machine
-- Host a Basic Website on your New Cloud VM
+- Created the virtual machine
+- Connected to the virtual machine
+- Hosted a Basic Website on your New Cloud VM
 
 ## Reference links
 
@@ -197,4 +196,4 @@ In this lab, you have completed:
 
 - https://learn.microsoft.com/en-us/partner-center/marketplace/azure-vm-use-approved-base
 
-## You have successfully completed this lab.
+## You have successfully completed this lab. Proceed with the next lab.

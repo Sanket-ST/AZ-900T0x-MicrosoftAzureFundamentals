@@ -67,7 +67,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 1. On the **SimpleWinVM** virtual machine blade, click **Networking**, review the **Inbound port rules** tab, and note that there is no network security group associated with the network interface of the virtual machine or the subnet to which the network interface is attached.
 
-    **Note**: Identify the name of the network interface. You will need it in the next task.
+    >**Note**: Identify the name of the network interface. You will need it in the next task.
 
 ### Task 2: Create a network security group
 
@@ -79,20 +79,20 @@ In this task, we will create a network security group and associate it with the 
 
     | Setting | Value |
     | -- | -- |
-    | Subscription | **Choose your subscription** |
-    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**|
-    | Name | **myNSGSecure** |
-    | Region | **<inject key="Region" enableCopy="false"/>**  |
+    | Subscription | **Choose your subscription (1)** |
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)**|
+    | Name | **myNSGSecure (3)** |
+    | Region | **<inject key="Region" enableCopy="false"/> (4)**  |
 
-     ![](../images/lab04-image(10).png)
+1. Click **Review + create (5)** and then after the validation click **Create**.
 
-1. Click **Review + create** and then after the validation click **Create**.
+    ![](../images/lab04-image(10).png)
 
 1. After the NSG is created, click **Go to resource**.
 
-1. Under **Settings** click **Network interfaces** and then **Associate**.
+1. Under **Settings** click **Network interfaces** and then select **Associate**.
 
-1. Select the **network interface** you identified in the previous task, and then Click **Ok**. 
+1. Select the **network interface** you identified in the previous task, and then Click **OK**. 
 
 ### Task 3: Configure an inbound security port rule to allow RDP
 
@@ -112,9 +112,11 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
 
-1. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
+1. From the **Search resources, services, and docs** blade, search for and select **Network security groups**. Select **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)**. Network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
 
-1. On the **Inbound port rules** tab, click **Add inbound port rule** and provide the below values to the respective settings and  Click **Add**. 
+1. From the left navigation pane, under **Settings** select **Inbound security rules**.
+
+1. On the **Inbound security rules** tab, click **+ Add** and on the **Add inbound security rule** provide the below values to the respective settings and  Click **Add**. 
 
     | Setting | Value |
     | -- | -- |
@@ -138,21 +140,19 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. After the machine starts, open an **Internet Explorer** browser, then click on **Ok**. 
 
-    ![](../images/lab04-image11.png)
-
 1. Open a New tab in the browser and browse to **https://www.bing.com** , and then close Internet Explorer Pop-ups. You will need to work through the IE enhanced security pop-ups. The page is displayed.
 
     **Note**: We will now configure a rule to deny outbound internet access. 
 
 1. Minimize the RDP session to navigate back to **Azure Portal**.
 
-1. In the Azure portal, navigate to the blade of the **SimpleWinVM** virtual machine. 
+1. In the Azure portal, navigate to the network security group, select **myNSGSecure**. 
 
-1. Under **Settings**, click **Networking**, and then **Outbound port rules**.
+1. From the left navigation menu, under **Settings**, select **Outbound security rules**.
 
 1. Notice there is a rule, **AllowInternetOutbound**. This is a default rule and cannot be removed. 
 
-1. Click **Add outbound port rule** and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** after configuring the below settings. 
+1. Select **+ Add**, on the **Add outbound security rule** configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** after configuring the below settings. 
 
     | Setting | Value |
     | -- | -- |
@@ -169,23 +169,24 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. Return to your RDP session. 
 
-1. Browse to **https://www.bing.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
+1. Browse to **https://www.bing.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups. 
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-<validation step="6cb758ec-f211-4b8d-a8cc-02b361092388"/>
+<validation step="662ed628-33c0-4e87-95b4-6fe81af2bb9a"/>
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ### Review
 In this lab, you have completed:
-- Create a virtual machine
-- Create a network security group
-- Configure an inbound security port rule to allow RDP
+- Created a virtual machine
+- Created a network security group
+- Configured an inbound security port rule to allow RDP
 - Configure an outbound security port rule to deny Internet access
 
 ### Reference Links
 - https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview
 - https://learn.microsoft.com/en-us/azure/virtual-network/network-security-group-how-it-works
   
-## You have successfully completed this lab.
+## You have successfully completed this lab. Proceed with the next lab.

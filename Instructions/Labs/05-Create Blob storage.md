@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 ### Prerequisites
 
-1. Launch Notepad by searching for it in the Start menu, then input a random text within the Notepad application.
+1. In the **Lab-VM**, launch **Notepad** by searching for it in the Start menu, then input a random text within the Notepad application.
 
 1. Next, access the menu bar at the top and select File > Save as. Navigate to the Desktop directory, name the file as **Test**, and save the file to the desktop.
 
@@ -32,7 +32,7 @@ In this task, we will create a new storage account.
 
 1. On the Azure portal, from the **Azure services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
 
-1. On the **Basics** tab of the **Create storage account** blade, fill in the following information.Leave the defaults for everything else, then click on **Next**.
+1. On the **Basics** tab of the **Create storage account** blade, fill in the following information.Leave the defaults for everything else, then click on **Next (7)**.
 
     | Setting | Value | 
     | --- | --- |
@@ -45,7 +45,7 @@ In this task, we will create a new storage account.
     
       ![Screenshot of the newly created storage account in the Azure portal .](../images/5-1.png)
 
-1. On the **Advanced (7)** tab of the **Create storage account**, choose **Hot** for **Access tier** setting under **Blob storage**.
+1. On the **Advanced (7)** tab of the **Create a storage account**, choose **Hot** for **Access tier** setting under **Blob storage**.
 
 1. Click **Review + create** to review your storage account settings and allow Azure to validate the configuration. 
 
@@ -55,22 +55,22 @@ In this task, we will create a new storage account.
 
 1. From the Home page, search for and select **Storage accounts** and ensure your new storage account is listed.
 
-    ![Screenshot of the newly created storage account in the Azure portal .](../images/AZ-9000501.png)
+    ![Screenshot of the newly created storage account in the Azure portal .](../images/storageaccount.png)
 
 ### Task 2: Work with blob storage
 
 In this task, we will create a Blob container and upload a blob file. 
 
-1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** (newly created storage account), from the left navigation pane under **Data storage** section, and then click **Containers** under Data storage.
+1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** (newly created storage account), from the left navigation pane under **Data storage** section, click **Containers**.
 
 1. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **Create**.
 
    | Setting | Value |
    | ---- | ---- |
    | Name | **container1**|
-   | Public access level| **Private (no anonymous access)** |
+   | Anonymous access level| **Private (no anonymous access)** |
     
-    ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/AZ-9000502.png)
+    ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/containers.png)
 
 1. Click the **container1** container, and then click **Upload**.
 
@@ -84,31 +84,32 @@ In this task, we will create a Blob container and upload a blob file.
 
    >**Note:** In the event that the access level for the storage account is configured as public, accessing the contents of the storage account can be done through a URL. To gain a deeper understanding of Storage Account access levels, please go through the following link:[Access Levels](https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal)
 
-1. As you have time, from the storage account blade, review the options for Files, Tables, and Queues.
+1. As you have time, from the storage accounts blade, review the options for Files, Tables, and Queues.
 
 ### Task 3: Monitor the storage account
 
-1. If needed, return to the storage account blade and click **Diagnose and solve problems**. 
+1. If needed, return to the **storageaccount<inject key="DeploymentID" enableCopy="false" />** blade and from the left-navigation menu, click on the **Diagnose and solve problems**. 
 
 1. Explore some of the most common storage problems. Notice there are multiple troubleshooter.
 
-1. On the storage account blade, scroll down to the **Monitoring** section and click **Insights**. Notice there is information on Failures, Performance, Availability, and Capacity. Your information will be different.
+1. On the storage account blade, from the left navigation menu, scroll down to the **Monitoring** section and click **Insights**. Notice there is information on Failures, Performance, Availability, and Capacity.
 
     ![Screenshot of the storage account Insights page.](../images/AZ-9000503.png)
 
-   <validation step="920a6ecb-b2ae-40e8-92c8-10039a6017e0" />
+    >**Note:** In your Lab-Vm information will be different.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+<validation step="8f85ae2c-c70e-4d55-9443-7e1b7e19a6cf" />
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab, you have completed:
-- Create a storage account
-- Work with blob storage
-- Monitor the storage account
+- Created a storage account
+- Worked with blob storage
+- Monitored the storage account
 
 ## Reference link
 
