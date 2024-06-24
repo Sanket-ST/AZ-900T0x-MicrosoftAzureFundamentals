@@ -29,8 +29,6 @@ In this task, we will assign the Virtual machine contributor role.
 
 1. Then view and select the existing resource group **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**.
 
-   ![image](../images/lab14-image2.png)
-     
 1. You will be directed to the overview page of the resource group
 
 1. Click on the **Access control (IAM) (1)** blade, and then switch to the **Roles (2)** tab. Scroll down and notice roles definitions that are available. Use the View link under details to get an idea of each role's permissions. Notice there is also information on the number of users and groups that are assigned to each role.
